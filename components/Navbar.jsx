@@ -8,7 +8,7 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <>
-      <nav className='flex flex-row items-center justify-evenly  mt-16  '>
+      <nav className='flex flex-row items-center justify-evenly w-4/5 mx-auto mt-16  '>
         <div className='basis-1/12 ml-32'>
             <Image src="/logo.png" alt='logo' width={70} height={70} className=''/> 
         </div>

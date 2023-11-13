@@ -14,6 +14,11 @@ module.exports = {
       },
       fontFamily : {
         roboto : ['Roboto', "sans-serif"],
+        sanSerif : ['Open Sans', "sans-serif"]
+      },
+      fontSize: {
+        '5xl': '3.052rem',
+        '7xl' : '4.375rem'
       }
      
     },

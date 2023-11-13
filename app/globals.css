@@ -1,6 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@400;500&display=swap');
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.text-edit{
+    line-height: 130%;             /* satır aralıklarını düzenle*/
+}
+
+.text-paragraph{
+    line-height: 175%;             /* satır aralıklarını düzenle*/
+}
+
+
+.card-animation:hover{
+    transform: scale(1.05);      /* Nesne üzerine gelince 1.5 kat büyüsün */
+    transition-duration: 1s;   /* 1sn de gerçekleşsin */
+    animation-delay: 3s; /* Animasyon 3 sn beklesin daha sonra devam etsin*/
+    animation-iteration-count: infinite;
+}
 
